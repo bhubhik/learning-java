@@ -1,3 +1,5 @@
+package classes;
+
 public class Car {
   private String make;
   private String model;
@@ -31,5 +33,12 @@ public class Car {
 
   public int getYear() {
     return year;
+  }
+
+  public void displayCarInfo() {
+    System.out.println("Car Details:");
+    System.out.println("Make: " + this.make);
+    System.out.println("Model: " + this.model);
+    System.out.println("Year: " + this.year);
   }
 }
