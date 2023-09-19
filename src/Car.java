@@ -28,4 +28,8 @@ public class Car {
       System.out.println(make + " " + model + " is already stopped.");
     }
   }
+
+  public int getYear() {
+    return year;
+  }
 }
